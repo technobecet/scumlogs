@@ -21,7 +21,10 @@ When posting to the web service it will post using the following url structure.
 	Sends admin logs to https://example.com/webapi/admin
 	Sends chat logs to https://example.com/webapi/chat
 	Sends violations logs to https://example.com/webapi/violations
-	also post as logLine, example php to get the post: $_POST['logLine']
+
+also post as logLine, example php to get the post: 
+
+	$_POST['logLine']
 
 
 when you access your gportal server you can see serverid value in url: https://www.g-portal.com/en/scum/status/XXXXXX
