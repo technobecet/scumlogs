@@ -10,8 +10,9 @@ run once to generate a new ini file, edit ini file and complete gportal data
 edit the webserviceurl in the configuration file yourself.
 when sending logs using the log name, 
 for example:
-
+When you set webserviceurl as follows
 	webserviceurl = https://example.com/webapi/
+When posting to the web service it will post using the following url structure.
 	Sends login logs to https://example.com/webapi/login
 	Sends kill logs to https://example.com/webapi/kill
 	Sends admin logs to https://example.com/webapi/admin
