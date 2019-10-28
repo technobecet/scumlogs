@@ -3,7 +3,7 @@ forked from gamebotland and edited for send logs to web service by Behçet Atala
 
 is incremental, adds new lines to last updated files and create new ones from last execution
 
-created to keep a backup of the server logs in local
+created to keep a backup of the server logs in local and also database
 
 run once to generate a new ini file, edit ini file and complete gportal data
 
