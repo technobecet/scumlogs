@@ -134,20 +134,15 @@ async def read_logins(syncTarget):
                             table = id.split('_')
                             table_1 = table[0]
                             if table_1 == 'admin':
-                                #log('admin table')
                                 await sendToServer(line, 'admin')
                             if table_1 == 'chat':
-                                log('chat table')
-                                #await sendToServer(line, 'chat')
+                                await sendToServer(line, 'chat')
                             if table_1 == 'kill':
-                                #log('kill table')
                                 await sendToServer(line, 'kill')
                             if table_1 == 'login':
-                                #log('login table')
                                 await sendToServer(line, 'login')
                             if table_1 == 'violations':
-                                log('violations table')
-                                #await sendToServer(line, 'violations')
+                                await sendToServer(line, 'violations')
                             writing = True
                     if writing:
                         if found:
